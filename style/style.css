@@ -207,25 +207,16 @@ header {
 }
 
 .earn__content {
-  background-color: #fff;
-  width: 600px;
-  margin: 0 auto -160px auto;
+  background-color: #ffffff;
+  width: 700px;
+  margin: 0 auto 0 auto;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   line-height: 3rem;
-  opacity: 0.9;
-}
-.earn__content .form__estimate {
-  color: #3671E9;
-}
-.earn__content .form__number {
-  font-size: 32px;
-}
-.earn__content span {
-  color: #3671E9;
+  z-index: 4;
 }
 .earn__content form {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .earn__content form .content__form--input {
   border: none;
@@ -240,13 +231,32 @@ header {
 
 .section__trade {
   background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
-  padding-top: 180px;
+  padding-top: 0px;
   padding-bottom: 60px;
+  z-index: 0;
 }
 .section__trade .trade__heading {
   width: 750px;
   text-align: center;
   margin: 30px auto;
+}
+
+.trade__content {
+  background-color: #ffffff;
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+  line-height: 3rem;
+}
+.trade__content .form__estimate {
+  color: #3671E9;
+}
+.trade__content .form__number {
+  font-size: 32px;
+}
+.trade__content span {
+  color: #3671E9;
 }
 
 .trade__box {

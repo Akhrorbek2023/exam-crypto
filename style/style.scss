@@ -175,24 +175,18 @@ header{
 }
 
 .earn__content{
-    background-color: #fff;
-    width: 600px;
-    margin: 0 auto -160px auto;
+    background-color: #ffffff;
+    width: 700px;
+    margin: 0 auto 0 auto;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     line-height: 3rem;
-    opacity: 0.9;
-    .form__estimate{
-        color: #3671E9;
-    }
-    .form__number{
-        font-size: 32px;
-    }
-    span{
-        color: #3671E9;
-    }
+    // box-shadow: 2px 2px 4px rgb(180, 177, 177);
+    z-index: 4;
+   
+    
     form{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         .content__form--input{
             border: none;
             outline: none;
@@ -214,8 +208,9 @@ header{
 // trade ----trade
 .section__trade{
     background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
-    padding-top: 180px;
+    padding-top: 0px;
     padding-bottom: 60px;
+    z-index: 0;
     .trade__heading{
         width: 750px;
         text-align: center;
@@ -223,7 +218,23 @@ header{
         
     }
 }
-
+.trade__content{
+    background-color: #ffffff;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    line-height: 3rem;
+    .form__estimate{
+        color: #3671E9;
+    }
+    .form__number{
+        font-size: 32px;
+    }
+    span{
+        color: #3671E9;
+    }    
+}
 
 .trade__box{
     background-color: #fff;
