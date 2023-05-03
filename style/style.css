@@ -1,0 +1,514 @@
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex.start {
+  justify-content: start;
+}
+
+.btn {
+  padding: 15px 25px;
+  background-color: #3671E9;
+  color: #fff;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+.btn.success {
+  background-color: #fff;
+  color: #000;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.title.head {
+  font-size: 60px;
+  line-height: 76px;
+}
+.title.dark {
+  color: #0D0D2B;
+}
+.title.small {
+  font-size: 32px;
+}
+.title.smallest {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+p {
+  color: #828282;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 2rem;
+}
+
+header {
+  background-color: #0D0D2B;
+  padding: 50px 0;
+}
+
+.header__logo img {
+  margin-right: 10px;
+}
+.header__logo .logo__name {
+  font-size: 18px;
+  color: #fff;
+}
+
+.header__right nav .header__item {
+  margin: 0 20px;
+}
+.header__right nav .header__item .header__link {
+  color: #fff;
+}
+.header__right .navbar__button {
+  font-size: 16px;
+}
+
+.header__item:nth-child(5) {
+  border-right: 1px solid #F2F2F2;
+  padding-right: 15px;
+}
+
+.hero {
+  margin-top: 50px;
+}
+
+.hero__left .hero__save {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 12px 0;
+  width: 340px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+.hero__left .hero__save span {
+  background-color: #fff;
+  color: #0D0D2B;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+.hero__left .hero__title {
+  margin-bottom: 30px;
+}
+.hero__left .hero__text {
+  width: 430px;
+  letter-spacing: 0.01em;
+  line-height: 1.5rem;
+  margin-bottom: 30px;
+}
+.hero__left .hero__button img {
+  margin-left: 15px;
+}
+
+.header__position {
+  position: relative;
+}
+.header__position .position {
+  position: absolute;
+  right: 0;
+  left: -1100px;
+  top: -100px;
+}
+.header__position .position-two {
+  position: absolute;
+  right: 0;
+  left: -700px;
+}
+
+.section__crappo {
+  background-color: #0D0D2B;
+  padding-top: 70px;
+}
+
+.crappo__box {
+  margin-right: 100px;
+  align-items: normal;
+}
+.crappo__box .flex__right {
+  margin-left: 15px;
+}
+.crappo__box .flex__right .title {
+  margin-bottom: 2px;
+}
+
+.crappo__right {
+  position: relative;
+}
+.crappo__right .crappo__text {
+  width: 80%;
+  margin: 30px 0;
+}
+
+.croppo__position {
+  position: absolute;
+  right: 0;
+  bottom: 300px;
+}
+
+.croppo__position--two {
+  position: absolute;
+  right: 0;
+}
+
+.section__earn {
+  background-color: #0D0D2B;
+}
+
+.earn__heading {
+  margin: 0 auto;
+  text-align: center;
+}
+.earn__heading .earn__text {
+  width: 550px;
+  margin: 30px auto;
+}
+
+.earn__content {
+  background-color: #fff;
+  width: 600px;
+  margin: 0 auto -160px auto;
+  padding: 20px;
+  border-radius: 10px;
+  line-height: 3rem;
+  opacity: 0.9;
+}
+.earn__content .form__estimate {
+  color: #3671E9;
+}
+.earn__content .form__number {
+  font-size: 32px;
+}
+.earn__content span {
+  color: #3671E9;
+}
+.earn__content form {
+  margin-bottom: 20px;
+}
+.earn__content form .content__form--input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+.earn__content form select {
+  width: 150px;
+}
+
+.section__trade {
+  background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
+  padding-top: 180px;
+  padding-bottom: 60px;
+}
+.section__trade .trade__heading {
+  width: 750px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.trade__box {
+  background-color: #fff;
+  width: 350px;
+  text-align: center;
+  padding: 50px 0;
+  border-radius: 10px;
+}
+.trade__box .trade__image {
+  margin-bottom: 40px;
+}
+.trade__box .title {
+  color: #0D0D2B;
+}
+.trade__box .trade__button img {
+  border: 2px solid rgba(43, 7, 110, 0.2);
+  border-radius: 90px;
+}
+.trade__box .trade__title h4 {
+  margin-left: 100px;
+}
+.trade__box .trade__title .trade__title--text {
+  margin-top: -25px;
+  margin-left: 10px;
+}
+.trade__box .trade__text {
+  margin-bottom: 20px;
+}
+
+.trade__box--hover {
+  background-color: #2B076E;
+}
+.trade__box--hover .trade__title h4 {
+  color: #fff;
+}
+.trade__box--hover .btn {
+  margin-left: 90px;
+}
+.trade__box--hover .btn img {
+  margin-left: 15px;
+}
+
+.section__market {
+  background-color: #2B076E;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.section__market .market__title {
+  margin: 0 auto;
+  width: 750px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.invest__box {
+  margin: 70px 0;
+}
+.invest__box .invest__box__left {
+  width: 35%;
+}
+.invest__box .invest__box__left .invest__text {
+  margin-bottom: 30px;
+}
+.invest__box .invest__box__right {
+  position: relative;
+  width: 500px;
+  margin-left: -50px;
+  background-color: #35068C;
+  padding: 20px;
+  border-radius: 15px;
+}
+.invest__box .invest__box__right img {
+  margin-left: 0px;
+}
+
+.left__center {
+  line-height: 2px;
+}
+.left__center span {
+  margin-top: -25px;
+}
+
+.bitcoin__box {
+  margin-bottom: 30px;
+}
+
+.bitcoin__box__left {
+  align-items: normal;
+}
+.bitcoin__box__left img {
+  margin-right: 10px;
+}
+.bitcoin__box__left .left__center {
+  margin-right: 10px;
+}
+.bitcoin__box__left .left__center span {
+  color: #fff;
+}
+
+.trade__price {
+  position: absolute;
+  background-color: #491F98;
+  padding: 10px;
+  border-radius: 10px;
+  bottom: -100px;
+  left: 50px;
+  width: 150px;
+}
+
+.trade__price--right {
+  position: absolute;
+  background-color: #491F98;
+  right: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  bottom: -40px;
+}
+
+.statistic__box {
+  margin: 170px 0;
+}
+.statistic__box .stbox__left {
+  margin-left: -60px;
+  margin-right: 60px;
+}
+.statistic__box .stbox__right .static__text {
+  margin-bottom: 30px;
+}
+
+.box__left {
+  width: 40%;
+}
+.box__left .invest__text {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.box__right {
+  width: 50%;
+  background-color: #35068C;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.box__wrapper {
+  margin-bottom: 20px;
+  padding: 15px;
+}
+.box__wrapper .wrapper__img {
+  margin-right: 20px;
+}
+
+.wrapper__name h4 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.box__wrapper--odd {
+  background-color: #4610AD;
+  margin-left: -80px;
+  margin-right: 40px;
+  border-radius: 15px;
+}
+
+.wrapper__item--width {
+  width: 90px;
+}
+
+.wrapper__item--color2 {
+  color: #FF7676;
+}
+
+.wrapper__item--color1 {
+  color: #8FFFBE;
+}
+
+.section__mining {
+  background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+  padding: 70px 0;
+}
+
+.mining__box {
+  background-color: #3671E9;
+  margin-top: 30px;
+  padding: 20px 30px;
+  border-radius: 15px;
+  position: relative;
+}
+.mining__box .mining__box__left .mining__text {
+  width: 370px;
+  color: #fff;
+}
+
+.mining__box__right .mining__form input {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: #3671E9;
+  outline: none;
+  font-size: 16px;
+  width: 400px;
+  padding-bottom: 10px;
+}
+.mining__box__right .mining__form input::-moz-placeholder {
+  font-size: 18px;
+  color: #fff;
+}
+.mining__box__right .mining__form input::placeholder {
+  font-size: 18px;
+  color: #fff;
+}
+.mining__box__right .mining__form .btn {
+  margin-left: 10px;
+}
+
+.mining__position {
+  position: absolute;
+  top: 0;
+}
+
+.mining__position--two {
+  position: absolute;
+  right: 0;
+}
+
+footer {
+  background-color: #0D0D2B;
+}
+footer .footer__holder {
+  align-items: normal;
+}
+footer .footer__holder .footer__box {
+  line-height: 2rem;
+}
+footer .footer__holder .footer__box .footer__link {
+  color: #E0E0E0;
+}
+footer .footer__holder .footer__box .footer__link strong {
+  color: #fff;
+}
+footer .footer__holder .footer__logo {
+  margin-top: 20px;
+}
+footer .footer__holder .footer__logo .footer__name {
+  margin-left: 10px;
+  color: #fff;
+}
+footer .footer__holder .footer__payment {
+  width: 360px;
+  margin-top: 20px;
+}
+
+.footer__item:first-child {
+  line-height: 4rem;
+}
+
+.footer__end {
+  padding: 20px 0;
+}
+.footer__end .end__left {
+  color: #F2F2F2;
+}
+.footer__end .end__right a {
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */

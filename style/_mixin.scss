@@ -1,0 +1,69 @@
+$fontFamily: 'Rubik', sans-serif;
+
+@mixin siteContainer{
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.container{
+    @include siteContainer;
+}
+
+@mixin flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex{
+    @include flex;
+    &.start{
+        justify-content: start;
+        
+    }
+}
+
+@mixin btn{
+    padding: 15px 25px;
+    background-color: #3671E9;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.btn{
+    @include btn();
+    &.success{
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+@mixin mixTitle {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #fff;
+    margin-bottom: 30px
+}
+
+
+.title {
+    @include mixTitle();
+    &.head{
+        font-size: 60px;
+        line-height: 76px;
+    }
+    &.dark{
+        color: #0D0D2B;
+    }
+    &.small{
+        font-size: 32px;
+    }
+    &.smallest{
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+}
